@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{110e1453-def0-4cfe-830d-d0b71806db51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine">
+      <UniqueIdentifier>{9eb07d35-6f5d-4288-9a17-e88445799431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Elements">
+      <UniqueIdentifier>{943194f5-64c1-4cb2-84af-d27177b88adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine\Elements">
+      <UniqueIdentifier>{eec5e354-fca3-4183-88a1-dcb1fff04f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Load">
+      <UniqueIdentifier>{66e4730b-44ac-47f8-8b64-e26c2186f26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine\Load">
+      <UniqueIdentifier>{b94c2ed4-9e78-4c20-b774-84c968772dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\UI">
+      <UniqueIdentifier>{5002c263-3726-4921-ad57-f93193eac9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine\UI">
+      <UniqueIdentifier>{81aaacb3-a874-439b-90c8-ba3270a25a18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KorkaEngine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadOBJ.cpp">
+      <Filter>Исходные файлы\Engine\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="RawObject.cpp">
+      <Filter>Исходные файлы\Engine\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Исходные файлы\Engine\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Исходные файлы\Engine\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadOBJ.h">
+      <Filter>Файлы заголовков\Engine\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="RawObject.h">
+      <Filter>Файлы заголовков\Engine\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Файлы заголовков\Engine\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
