@@ -1,6 +1,6 @@
 #pragma once
 #include "OpenGL.h"
-class RawObject
+class RawObject // Хранит данные об объекте
 {
 private:
 	GLfloat* vertex; // Вершины

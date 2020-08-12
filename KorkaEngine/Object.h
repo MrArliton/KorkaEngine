@@ -13,6 +13,7 @@ public:
 	Object(RawObject* obj,GLuint* vao);
 	void setShaderProgram(Shader* shaderProgramm); // Установка шейдерной программы *обязательно
 	void update(glm::mat4 VP); // Обновление MVP
+	void transformModel(glm::mat4 transform); // Изменяем матрицу модели
 	void draw();
 	void dispose();
 };

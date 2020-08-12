@@ -37,6 +37,36 @@
     <Filter Include="Файлы заголовков\Engine\UI">
       <UniqueIdentifier>{81aaacb3-a874-439b-90c8-ba3270a25a18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Engine\Elements\Raw">
+      <UniqueIdentifier>{d6773200-5e56-449e-afce-c69b7a92487f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Elements\Raw">
+      <UniqueIdentifier>{75d98a02-a336-469c-911e-6efd637ce473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine\UI\Raw">
+      <UniqueIdentifier>{928cd2ce-1d28-4a9c-90c0-f16f87087af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\UI\Raw">
+      <UniqueIdentifier>{9b0ef765-f5f3-479b-9116-aedb157cbc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine\Input">
+      <UniqueIdentifier>{ecdb1543-bfcf-40ab-a37e-71e2e5cf4f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Input">
+      <UniqueIdentifier>{9a9281bf-721e-4083-93a0-2fe8c8eca107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine\Input\Raw">
+      <UniqueIdentifier>{ce897f05-bb9d-40ee-b5e5-98beba092795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine\Input\Test">
+      <UniqueIdentifier>{6f2f9efc-3897-442b-8fe6-5dba161b3272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Input\Tests">
+      <UniqueIdentifier>{9915405d-e014-4223-bba2-15b3c247dba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Input\Raw">
+      <UniqueIdentifier>{4c8f51fe-5fef-4f99-b4ff-18884b570d9a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="KorkaEngine.cpp">
@@ -51,9 +81,6 @@
     <ClCompile Include="LoadOBJ.cpp">
       <Filter>Исходные файлы\Engine\Load</Filter>
     </ClCompile>
-    <ClCompile Include="RawObject.cpp">
-      <Filter>Исходные файлы\Engine\Elements</Filter>
-    </ClCompile>
     <ClCompile Include="Object.cpp">
       <Filter>Исходные файлы\Engine\Elements</Filter>
     </ClCompile>
@@ -63,8 +90,20 @@
     <ClCompile Include="OpenGL.cpp">
       <Filter>Исходные файлы\Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
+    <ClCompile Include="RawObject.cpp">
+      <Filter>Исходные файлы\Engine\Elements\Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="RawCamera.cpp">
+      <Filter>Исходные файлы\Engine\UI\Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
       <Filter>Исходные файлы\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInput.cpp">
+      <Filter>Исходные файлы\Engine\Input\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="RawInputControll.cpp">
+      <Filter>Исходные файлы\Engine\Input\Raw</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,20 +116,29 @@
     <ClInclude Include="LoadOBJ.h">
       <Filter>Файлы заголовков\Engine\Load</Filter>
     </ClInclude>
-    <ClInclude Include="RawObject.h">
-      <Filter>Файлы заголовков\Engine\Elements</Filter>
-    </ClInclude>
-    <ClInclude Include="Object.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Shader.h">
       <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
     <ClInclude Include="OpenGL.h">
       <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="Object.h">
+      <Filter>Файлы заголовков\Engine\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="RawObject.h">
+      <Filter>Файлы заголовков\Engine\Elements\Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="RawCamera.h">
+      <Filter>Файлы заголовков\Engine\UI\Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
       <Filter>Файлы заголовков\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RawInputControll.h">
+      <Filter>Файлы заголовков\Engine\Input\Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInput.h">
+      <Filter>Файлы заголовков\Engine\Input\Test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

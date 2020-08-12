@@ -1,6 +1,5 @@
 #include "Object.h"
 #include "string.h"
-#include"iostream"
 Object::Object(RawObject* obj,GLuint* vao) { // Получаем сырой объект - не использовать без шейдерной программы
 	printDebug("Creating object\n");
 	this->triangleAmount = obj->getTriangleAmount();
@@ -49,7 +48,9 @@ void Object::draw() { // Рисуем объект
 
 	glDrawArrays(GL_TRIANGLES, 0, triangleAmount*3); // Рисуем вершины
 }
-
+void Object::transformModel(glm::mat4 transform) { // Транфсформация матрицы модели
+	*Model *= transform;
+}
 void Object::dispose() { // Очистка
 	if (meshVbo != NULL)
 	{
